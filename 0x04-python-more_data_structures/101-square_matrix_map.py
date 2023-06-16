@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Abdulla
 
 
 def square_matrix_map(matrix=[]):
