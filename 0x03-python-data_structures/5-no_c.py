@@ -4,5 +4,8 @@
 
 def no_c(my_string):
     """Remove all characters c and C from a string."""
-    copy = [x for x in my_string if x != 'c' and x != 'C']
-    return ("".join(copy))
+    new_string = ""
+    for char in my_string:
+        if char not in ('c', 'C'):
+            new_string += char
+    return new_string
